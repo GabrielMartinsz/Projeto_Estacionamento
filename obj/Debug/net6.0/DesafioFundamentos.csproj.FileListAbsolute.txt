@@ -12,3 +12,17 @@ C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\trilha-
 C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\trilha-net-fundamentos-desafio\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.pdb
 C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\trilha-net-fundamentos-desafio\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.genruntimeconfig.cache
 C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\trilha-net-fundamentos-desafio\Projeto_Estacionamento\obj\Debug\net6.0\ref\DesafioFundamentos.dll
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\bin\Debug\net6.0\DesafioFundamentos.exe
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\bin\Debug\net6.0\DesafioFundamentos.deps.json
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\bin\Debug\net6.0\DesafioFundamentos.runtimeconfig.json
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\bin\Debug\net6.0\DesafioFundamentos.dll
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\bin\Debug\net6.0\DesafioFundamentos.pdb
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.AssemblyInfoInputs.cache
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.AssemblyInfo.cs
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.dll
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\refint\DesafioFundamentos.dll
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.pdb
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\DesafioFundamentos.genruntimeconfig.cache
+C:\Users\Gabri\OneDrive\Área de Trabalho\Gabriel\Projeto_Estacionamento\obj\Debug\net6.0\ref\DesafioFundamentos.dll

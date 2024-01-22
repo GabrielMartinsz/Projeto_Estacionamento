@@ -30,27 +30,40 @@ namespace DesafioFundamentos.Models
             Console.WriteLine($"Veículo com placa {placa} e marca {marca} adicionado ao estacionamento.");
         }
 
-        public void RemoverVeiculo()
+        public class Veiculo
+    {
+        public string Placa { get; set; }
+        public string Marca { get; set; }
+
+        public Veiculo(string placa, string marca)
         {
-            Console.WriteLine("Digite a placa do veículo para remover:");
-            string placa = Console.ReadLine();
-
-            if (veiculos.Any(x => x.Placa.ToUpper() == placa.ToUpper()))
-            {
-                Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
-                int horas = Convert.ToInt32(Console.ReadLine());
-                decimal valorTotal = precoInicial + (precoPorHora * horas);
-
-                Veiculo veiculoRemover = veiculos.First(x => x.Placa.ToUpper() == placa.ToUpper());
-                veiculos.Remove(veiculoRemover);
-
-                Console.WriteLine($"O veículo {veiculoRemover.Placa} (marca: {veiculoRemover.Marca}) foi removido e o preço total foi de: R$ {valorTotal}");
-            }
-            else
-            {
-                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
-            }
+            Placa = placa;
+            Marca = marca;
         }
+    }
+
+        public void RemoverVeiculo()
+{
+    Console.WriteLine("Digite a placa do veículo para remover:");
+    string placa = Console.ReadLine();
+
+    if (veiculos.Any(x => x.Placa.ToUpper() == placa.ToUpper()))
+    {
+        Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
+        int horas = Convert.ToInt32(Console.ReadLine());
+        
+        decimal valorTotal = (horas <= 1) ? precoInicial : precoInicial + (precoPorHora * (horas - 1));
+
+        Veiculo veiculoRemover = veiculos.First(x => x.Placa.ToUpper() == placa.ToUpper());
+        veiculos.Remove(veiculoRemover);
+
+        Console.WriteLine($"O veículo {veiculoRemover.Placa} (marca: {veiculoRemover.Marca}) foi removido e o preço total foi de: R$ {valorTotal}");
+    }
+    else
+    {
+        Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+    }
+}
 
         public void ListarVeiculos()
         {
@@ -68,17 +81,7 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Não há veículos estacionados.");
             }
         }
+ 
     }
 
-    public class Veiculo
-    {
-        public string Placa { get; set; }
-        public string Marca { get; set; }
-
-        public Veiculo(string placa, string marca)
-        {
-            Placa = placa;
-            Marca = marca;
-        }
-    }
 }
